@@ -27,6 +27,7 @@
             <verbose>false</verbose>
             <skipTestProject>true</skipTestProject>
             <allowSnapshots>true</allowSnapshots>
+            <pushRemote>true</pushRemote>
             <gitFlowConfig>
               <productionBranch>master</productionBranch>
               <developmentBranch>develop</developmentBranch>
