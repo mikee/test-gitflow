@@ -4,7 +4,7 @@
   <groupId>com.elmslycs.demo</groupId>
   <artifactId>test-gitflow</artifactId>
   <packaging>jar</packaging>
-  <version>1.0.0</version>
+  <version>1.0.3-SNAPSHOT</version>
   <name>test-gitflow</name>
   <url>http://maven.apache.org</url>
   <dependencies>
