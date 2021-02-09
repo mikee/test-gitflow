@@ -4,7 +4,7 @@
   <groupId>com.elmslycs.demo</groupId>
   <artifactId>test-gitflow</artifactId>
   <packaging>jar</packaging>
-  <version>1.0.4</version>
+  <version>1.0.5</version>
   <name>test-gitflow</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -24,11 +24,12 @@
           <version>1.14.0</version>
           <configuration>
             <installProject>false</installProject>
-            <verbose>false</verbose>
+            <verbose>true</verbose>
             <skipTestProject>true</skipTestProject>
             <allowSnapshots>true</allowSnapshots>
             <pushRemote>true</pushRemote>
             <useSnapshotInHotfix>true</useSnapshotInHotfix>
+            <fetchRemote>true</fetchRemote>
             <gitFlowConfig>
               <productionBranch>master</productionBranch>
               <developmentBranch>develop</developmentBranch>
